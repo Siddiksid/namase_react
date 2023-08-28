@@ -1,0 +1,61 @@
+
+
+1.WHAT IS EMMET?
+
+Ans:Emmet is a coding tool used for web development to enhance HTML and CSS workflow by enabling shorthand syntax for writing code, generating code snippets, and speeding up the coding process. It's commonly used in text editors and integrated development environments (IDEs) to boost productivity in writing front-end code.
+
+
+2.Difference between library and a framework?
+
+Ans:A library is a collection of pre-written code that provides specific functionalities and can be called upon by the developer to perform tasks. Developers retain more control over the overall structure of their code.
+
+A framework, on the other hand, is a more comprehensive structure that dictates the overall architecture of an application. It provides guidelines and tools for building the entire application, often defining the flow and structure. Developers have less control over the application's structure but benefit from the framework's predefined patterns and components.
+
+
+3.What is CDN? why do we use it?
+
+Ans:A Content Delivery Network (CDN) is a distributed network of servers located in various geographic locations that work together to deliver web content, such as images, stylesheets, scripts, and other resources, to users more efficiently and quickly.
+
+CDNs are used to enhance website performance by reducing the load on a single origin server and decreasing the distance between users and the content they request. This results in faster page loading times, improved user experience, and reduced strain on the origin server, especially for websites with global audiences or heavy traffic.
+
+
+4.Why is React known as React?
+
+Ans:React, a JavaScript library for building user interfaces, is called "React" because of its core concept of reacting to changes in data and efficiently updating the user interface based on those changes. When the data in a React application changes, the library efficiently calculates the minimal set of updates needed to keep the user interface in sync with the new data, resulting in a responsive and reactive UI.
+
+The name "React" reflects its focus on efficiently handling UI updates in response to changing data, which is a fundamental aspect of building dynamic and interactive web applications.
+
+
+5.What is cross Origin in script tag?
+
+Ans:In web development, the concept of "cross-origin" refers to interactions between web pages or scripts that originate from different domains, protocols, or ports. Browsers enforce a security feature called the "same-origin policy," which restricts scripts from making requests or accessing resources from a different origin than the one that served the script.
+
+
+6.What is the difference between React and React-Dom?
+
+Ans:React: React is the core library that enables you to build user interfaces using components and manage the state of your application. It provides the foundational tools for creating reusable UI components, managing component lifecycles, and handling the rendering logic. It's responsible for defining the structure and behavior of your application's UI.
+
+ReactDOM: ReactDOM is a separate package that provides the integration between React and the actual DOM (Document Object Model) of the browser. It specifically deals with rendering React components to the DOM and updating them when there are changes in the component's state or props. ReactDOM is what allows you to take your React components and display them in the browser as HTML elements.
+
+
+7.What is the difference between react.development.js and react.development.js via CDN?
+
+
+Ans:react.development.js: This version of the React library is intended for development environments. It includes extra warnings and error messages that can help developers identify potential issues and debug problems in their code more effectively. It's larger in size due to these additional debugging features.
+
+react.production.js: This version of the React library is optimized for production environments. It has been minified and optimized to be smaller in size, which helps reduce the overall download time for users. It omits the extra warnings and error messages found in the development version, making it more suitable for production where debugging information is not needed and file size is a consideration.
+
+
+
+8.What is async and defer?
+
+Ans:A: Async - The async attribute is a boolean attribute. The script is downloaded in parallel(in the background) to parsing the page, and executed as soon as it is available (do not block HTML DOM construction during downloading process) and don’t wait for anything.
+
+Syntax
+<script src="demo_async.js" async></script>
+
+Defer - The defer attribute is a boolean attribute. The script is downloaded in parallel(in the background) to parsing the page, and executed after the page has finished parsing(when browser finished DOM construction). The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM.
+
+Syntax
+<script src="demo_defer.js" defer></script>
+
