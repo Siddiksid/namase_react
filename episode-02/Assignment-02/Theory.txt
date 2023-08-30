@@ -1,0 +1,96 @@
+
+1.What is NPM?
+
+Ans:NPM is a tool for managing JavaScript packages and dependencies, commonly used with Node.js. It helps developers install, update, and share reusable code, and enables version control through a package.json file. NPM also provides scripts and global package installation.
+
+
+2.What is Parcel or webpack.why do we need it?
+
+Ans:Parcel and Webpack are build tools for web development, bundling assets and optimizing code. They're essential for modular code, efficient asset management, and performance optimization in modern web applications.
+
+
+Parcel Features:
+
+1.Hot module Replacement
+2.File watcher algorithm - made with C++
+3.Minification of files
+4.cleaning our code 
+5.Optimizing the code
+6.Dev and Prod build
+7.Image optimization
+8.Caching
+9.Compresses the code
+10.Compatible with old browsers
+11.Consistent Hashing Algorithm
+12.Automatic Code Splitting
+13.HTTPs in dev
+14.Port numbers
+
+
+3.What is '.parcel-cache'?
+
+Ans:The .parcel-cache is a directory created by Parcel, a build tool, to store cached data for faster subsequent builds. It stores intermediate files, compiled assets, and dependency information to speed up the build process during development.
+
+
+4.What is npx?
+
+Ans:npx is a command-line tool that comes with npm (Node Package Manager). It's used to run Node.js packages or executables directly from the npm registry, without the need to install them globally. This is especially useful for running one-time or infrequently used tools without cluttering your global package installation.
+
+
+5.what is dependencies and dev-dependencies?
+
+Ans:
+Dependencies: These are packages required for your application to run in its production environment. They are essential for the actual functionality of your application and are typically installed when someone uses or runs your application.
+
+Dev Dependencies: These are packages needed during the development and testing process, but not for the actual production deployment. They include tools for building, testing, and debugging your application. Dev dependencies are not included when your application is packaged for production.
+
+
+6.What is Tree Shaking?
+
+Ans:In modern javascript unused code is eliminated from the application's codebase during bundling.This reduce the size of the final bundle and results in a efficient build.This is called Tree shaking.
+
+
+7.what is Hot Module Replacement?
+
+Ans:Hot Module Replacement (HMR) is a feature in certain development tools, such as Webpack, that allows changes to be made to the source code of a running application without requiring a full page reload or losing the application's current state. It speeds up the development process by instantly updating modified modules in the browser while preserving the application's state, making debugging and iterative development faster and more seamless.
+
+
+8. List down your favorite 5 superpowers of Parcel and describe any 3 of them in your own words.
+
+
+Ans:1.Hot Module Replacement-The modules are updated while application is running leading to easy debugging and development
+2.Parcel gives you the feature to support Older browsers
+3.Parcel uses Tree Shaking to remove unused code from the codebase
+4.Parcel does Automatic code Splitting
+5.Parcel Helps in Image optimization
+
+
+9.What is .gitignore? What should we add and not add into it?
+
+Ans: The .gitignore file is a text file that tells Git which files or folders to ignore in a project during commit to the repository. The types of files you should consider adding to a .gitignore file are any files that do not need to get committed. for example, For security, the security key files and API keys should get added to the gitignore. package-lock.json should not add into your .gitignore file.
+
+
+10.What is the difference between package.json and package-lock.json?
+
+Ans:package.json is for defining project metadata and dependencies, while package-lock.json is for maintaining dependency versions and ensuring consistent installations across different environments.
+
+11. Why should I not modify package-lock.json?
+
+Ans:Package-lock.json contains exact versions of the depenedencies which ensures the same installions in production and deployment.Modifying it might lead to malfunction of code in production 
+
+
+12.What is node_modules ? Is it a good idea to push that on git?
+
+
+Ans: node_modules folder like a cache for the external modules that your project depends upon. When you npm install them, they are downloaded from the web and copied into the node_modules folder and Nodejs is trained to look for them there when you import them (without a specific path). Don't push node_modulesin github because it contains lots of files(more than 100 MB), it will cost you memory space.
+
+
+13.what is dist folder?
+
+
+Ans:The /dist folder contains the minimized version of the source code. The code present in the /dist folder is actually the code which is used on production web applications. Along with the minified code, the /dist folder also comprises of all the compiled modules that may or may not be used with other systems.
+
+
+14.What is browserlist?
+
+Ans:Browserslist is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file. It's used by frameworks/libraries such as React, Angular and Vue, but it's not limited to them.
