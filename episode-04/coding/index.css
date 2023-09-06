@@ -59,3 +59,14 @@
     text-align: center;
     
 }
+
+
+@media screen and (min-width: 360px)  and ( max-width:664px)
+{
+    .header{
+        flex-direction: column;
+    }
+   .nav-items ul{
+    flex-direction: column;
+   }
+}
