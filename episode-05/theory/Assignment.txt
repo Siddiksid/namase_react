@@ -1,0 +1,37 @@
+1. What is the difference between Named export, Default export, and * as export?
+
+Ans:Named Export: In JavaScript, a named export allows you to export multiple variables, functions, or classes from a module using their specific names. These exports must be explicitly imported by name in other modules.
+
+Default Export: A default export in JavaScript allows you to export a single value, function, or class as the default export from a module. When importing, you can choose to give it any name you like, making it convenient for exporting a module's primary functionality.
+
+as Export: Using the * as syntax, you can export all the exports (both named and default) from a module as a single object. This enables you to import and access all the exports using a chosen namespace, simplifying the organization of imported code.
+Example:
+
+Named Export: export const myFunction = () => {...};
+Default Export: export default function myFunction() {...}
+* Export: export * from 'myModule';
+
+
+2.What is the importance of config.js file?
+
+
+Ans:The config.js file is important for several reasons:
+
+Configuration Management: It serves as a centralized location for storing configuration variables and settings, making it easier to manage and update various aspects of a software application.
+
+Security: Sensitive information like API keys, database credentials, and environment-specific configurations can be stored securely in this file, reducing the risk of exposing sensitive data in code repositories.
+
+Environment Adaptability: By using different config.js files for different environments (e.g., development, testing, production), you can ensure that your application behaves correctly in each environment, with minimal code changes.
+
+Maintainability: It promotes code maintainability and collaboration by separating configuration concerns from application logic, allowing developers to easily configure and fine-tune the application without modifying the code.
+
+
+3.What are React Hooks?
+
+Ans:React Hooks are functions in React that allow functional components to manage state, lifecycle events, and side effects, formerly exclusive to class components. They enable stateful logic within functional components, making code more modular and reusable. Key hooks include useState for state management, useEffect for handling side effects, useContext for accessing context, and useRef for creating mutable references. Hooks have become a crucial part of modern React development, promoting cleaner, more concise code.
+
+
+4.Why do we need useState Hook?
+
+
+Ans:The useState Hook in React is essential because it enables functional components to manage and update their local state. It allows components to hold and modify data that can trigger re-renders when changed, mimicking the behavior of state in class components. This makes it crucial for creating interactive and dynamic user interfaces, as it enables components to respond to user input and maintain their own state without needing to convert them into class componen
