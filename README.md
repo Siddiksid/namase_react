@@ -15,3 +15,9 @@ you can check it here :https://postmatesappsiddik.netlify.app
 Episode 5 contains all the code and assignment questions.Updated the episode 4 food delivery App.UseState hook is used to implement
 Filter button and a search bar to search for restaurant
 Check it out at:https://postmatesepisode6.netlify.app/
+
+
+Episode 6  contains all the code and assignment questions.I have used the swiggy Live api to fetch data instead of hard coding the data.
+Optimized filter and search capabailities.
+Check it out at https://postmatesepisode06.netlify.app/ (You need Allow CORS chrome extension to get the live api data)
+swiggy might update their live api in future and the app may not work
