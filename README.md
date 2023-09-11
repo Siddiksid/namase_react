@@ -18,6 +18,6 @@ Check it out at:https://postmatesepisode6.netlify.app/
 
 
 Episode 6  contains all the code and assignment questions.I have used the swiggy Live api to fetch data instead of hard coding the data.
-Optimized filter and search capabailities.
+Optimized filter and search capabailities.Have added a toggling Login button
 Check it out at https://postmatesepisode06.netlify.app/ (You need Allow CORS chrome extension to get the live api data)
 swiggy might update their live api in future and the app may not work
