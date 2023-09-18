@@ -1,0 +1,55 @@
+1.What are various ways to add images into our App? Explain with code examples?
+
+
+Ans: Using the full URL of the image for the web (CDN) or any public images. Example :
+
+<img src="https://reactjs.org/logo-og.png" alt="React Image" />
+Adding the image into the project Drag your image into your project and import it into the desired component
+
+import reactLogo from "./reactLogo.png";
+export default function App() {
+  return <img src={reactLogo} alt="react logo" />
+}
+The correct way to structure images in your project is to add them in an images folder. If you are using other assets than just images, you might want to add all in the assets folders.
+
+import reactLogo from "../../assets/images/reactLogo.png";
+export default function App() {
+  return <img src={reactLogo} alt="react logo" />
+}
+
+
+
+2. What would happen if we do console.log(useState())?
+
+
+Ans: We will get [undefined, function] where first item in an array is state is undefined and the second item in an array is setState function is bound dispatchSetState.
+
+
+3. How will useEffect behave if we don't add a dependency array?
+
+
+Ans:
+
+case 1:useEffect(()=>{
+
+},[])
+
+the callback function will be executed when the component is Mounted
+
+
+case 2:useEffect(()=>{
+
+})
+
+the callback function will be executed everytime any component re-renders
+
+
+4.What is SPA?
+
+Ans:Single Page Application (SPA) is a web application that dynamically updates the webpage with data from web server without reloading/refreshing the entire page. All the HTML, CSS, JS are retrieved in the initial load and other data/resources can be loaded dynamically whenever required. An SPA is sometimes referred to as a single-page interface (SPI).
+
+
+5.What is the difference between Client Side Routing and Server Side Routing?
+
+
+Ans:Client-side routing occurs within the browser and updates the UI without a full page refresh, utilizing JavaScript for navigating between views. Server-side routing involves the server responding to each request with a new HTML page, causing a full page refresh for navigation. Client-side routing is faster and provides a smoother user experience, while server-side routing involves more server interaction and page reloads.
