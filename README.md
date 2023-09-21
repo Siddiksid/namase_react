@@ -25,4 +25,7 @@ Swiggy might update its live API in the future and the app may not work
 
 Episode 7 contains all the code and assignment questions. I have fetched the menu of each restaurant from the live API and displayed it using a separate component. Routing has been added to all the components using react-router-Dom. Error element is also added
 Check it out at https://postmatesepisode7.netlify.app/
-some restaurants might not be delivering at the time you view so an error might occur.Refresh the URL on that occasion
+some restaurants might not be delivering at the time you view so an error might occur. Refresh the URL on that occasion
+
+
+Episode 8 contains all the code and assignment questions. I have implemented the About section using class-based components. I have used this.state, this.setState to create and change state variables. I have used ComponentDidMount(),componentDidUnmount(), and componentDidUpdate() to display the life cycle of class-based Components. (P.s Class components are used only in legacy projects now)
