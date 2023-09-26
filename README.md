@@ -29,3 +29,8 @@ some restaurants might not be delivering at the time you view so an error might 
 
 
 Episode 8 contains all the code and assignment questions. I have implemented the About section using class-based components. I have used this.state, this.setState to create and change state variables. I have used ComponentDidMount(),componentDidUnmount(), and componentDidUpdate() to display the life cycle of class-based Components. (P.s Class components are used only in legacy projects now)
+
+
+
+Episode 9 contains all the code and assignment questions.I have included custom hooks for data fetching and to check if the user is online or Offline.Lazy loading is used to split the code for better performance.
+Swiggy is constantly changing their live api so previous links might not work.
