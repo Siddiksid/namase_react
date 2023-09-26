@@ -33,4 +33,4 @@ Episode 8 contains all the code and assignment questions. I have implemented the
 
 
 Episode 9 contains all the code and assignment questions.I have included custom hooks for data fetching and to check if the user is online or Offline.Lazy loading is used to split the code for better performance.
-Swiggy is constantly changing their live api so previous links might not work.
+Swiggy is constantly changing their live api so previous links might not work.check the site out in https://postmatesepisode09.netlify.app/
