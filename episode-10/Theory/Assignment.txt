@@ -1,0 +1,52 @@
+1.Explore all the ways of writing css?
+
+Ans:Inline css->Css written within the html elements
+
+e.g
+   <h1 style="color:red">hello</h1>
+
+Internal css->CSS written within a <style> element in the HTML <head> section.
+
+e.g
+  <head>
+  <style>
+    p {
+      color: blue;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+
+External css ->CSS written in a separate .css file and linked to the HTML document using the <link> 
+
+
+e.g
+   
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+Libraries->you can use libraries such as bootstrap or Tailwind to write css
+
+
+2.How do we configure Tailwind?
+
+Ans:Install Tailwind CSS and its dependencies using npm:(npm install tailwindcss postcss autoprefixer)
+Generate Tailwind CSS configuration files:(npx tailwindcss init -p)
+Customize tailwind.config.js to fit your project needs.
+Import Tailwind CSS and use utility classes in your HTML, then build the CSS:(npx tailwindcss build styles.css -o output.css)
+
+
+3.In tailwind.config.js what does all the key means(content,theme,extend,plugins)?
+
+Ans:
+In Tailwind CSS, "content" refers to placeholder content or textual data. "Theme" allows customization of design properties like colors, fonts, etc. "Extend" integrates additional style configurations. "Plugins" are custom modules that extend Tailwind's functionality or style capabilities.
+
+
+4.why do we have .postcsssrc file?
+
+Ans:
+.postcssrc file configures PostCSS plugins and options for CSS processing.
+Separates plugin settings for cleaner project configuration.
+Enhances maintenance and facilitates consistency in CSS transformations.
